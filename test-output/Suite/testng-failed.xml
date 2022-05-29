@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="tasks.CreateTest12">
+        <methods>
+          <include name="configBS"/>
+          <include name="configBc"/>
+          <include name="he1"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="confiBM"/>
+          <include name="he"/>
+          <include name="configAM"/>
+        </methods>
+      </class> <!-- tasks.CreateTest12 -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
